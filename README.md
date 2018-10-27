@@ -15,6 +15,6 @@ O trabalho deve ser entregue até as  **23:59 do dia 09/11 (sexta-feira)**. A en
 ## Grupo
 O trabalho pode ser feito em grupos de até 3 pessoas. Preencha abaixo o nome dos integrantes do grupo:
 
-1.  Integrante A - matrícula
-2.  Integrante B - matrícula
+1.   - matrícula
+2.  Tiago Peruchi - 1711721
 3.  Integrante C - matrícula
