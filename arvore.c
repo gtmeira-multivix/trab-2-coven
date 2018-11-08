@@ -37,6 +37,8 @@ Candidato* arvore_buscar(Arvore *a, int candNumero)
 	}
 	if(a->cand.numero == candNumero)
 	{
+		printf(" %s ", a->cand.nome);
+		printf("-- %s \n\n", a->cand.cargo);
 		return &a->cand;
 	}
 	if(candNumero < (a->cand.numero))
@@ -51,8 +53,15 @@ Candidato* arvore_buscar(Arvore *a, int candNumero)
 
 void arvore_imprime_em_ordem(Arvore *a) 
 {
-	if(a->esquerda != NULL)
+	printf("  %d  ", a->cand.numero);
+	printf("%s ", a->cand.nome);
+	printf("-- %s \n", a->cand.cargo);
+	if(a->esquerda != NULL) 
 	{
 		arvore_imprime_em_ordem(a->esquerda);
+	}
+	if(a->direita != NULL) 
+	{
+		arvore_imprime_em_ordem(a->direita);
 	}
 }
